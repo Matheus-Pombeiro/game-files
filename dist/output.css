@@ -691,16 +691,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-gray-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
-}
-
-.bg-gray-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
-}
-
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -774,6 +764,16 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.placeholder\:text-sm::-moz-placeholder {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.placeholder\:text-sm::placeholder {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .placeholder\:text-stone-500::-moz-placeholder {
   --tw-text-opacity: 1;
   color: rgb(120 113 108 / var(--tw-text-opacity));
@@ -782,6 +782,12 @@ video {
 .placeholder\:text-stone-500::placeholder {
   --tw-text-opacity: 1;
   color: rgb(120 113 108 / var(--tw-text-opacity));
+}
+
+.hover\:scale-105:hover {
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .hover\:bg-stone-800:hover {
@@ -813,6 +819,17 @@ video {
   background-color: rgb(87 83 78 / var(--tw-bg-opacity));
 }
 
+@media (min-width: 640px) {
+  .placeholder\:sm\:text-sm::-moz-placeholder {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  .placeholder\:sm\:text-sm::placeholder {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:text-2xl {
     font-size: 1.5rem;
@@ -828,21 +845,26 @@ video {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
-}
 
-:is(:where(.dark) .dark\:bg-stone-800) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(41 37 36 / var(--tw-bg-opacity));
-}
+  .placeholder\:md\:text-base::-moz-placeholder {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 
-:is(:where(.dark) .dark\:bg-stone-700) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(68 64 60 / var(--tw-bg-opacity));
+  .placeholder\:md\:text-base::placeholder {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }
 
 :is(:where(.dark) .dark\:bg-stone-600) {
   --tw-bg-opacity: 1;
   background-color: rgb(87 83 78 / var(--tw-bg-opacity));
+}
+
+:is(:where(.dark) .dark\:bg-stone-700) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(68 64 60 / var(--tw-bg-opacity));
 }
 
 :is(:where(.dark) .dark\:text-white) {
