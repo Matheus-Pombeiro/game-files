@@ -39,6 +39,8 @@
     <li>Drag and drop</li>
  </ul>
 
+ You can access this project webpage clicking <a href="" target="_blank" rel="noopener noreferrer">here</a>.
+
  <hr>
 
  Author's name: Matheus V. G. Pombeiro<br>
