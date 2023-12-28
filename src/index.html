@@ -7,16 +7,16 @@
     <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="../dist/output.css">
 </head>
-<body class="w-screen h-dvh bg-gray-100 flex flex-col justify-between gap-6">
+<body class="w-screen h-dvh bg-gray-100 flex flex-col justify-between gap-6 dark:bg-stone-700">
 
     <!--Header-->
-    <header class="w-full h-16 px-4 bg-white flex justify-between items-center drop-shadow-md">
+    <header class="w-full h-16 px-4 bg-white flex justify-between items-center drop-shadow-md dark:bg-stone-600">
 
         <img src="assets/logo.png" alt="Logo" class="h-12">
 
         <nav class="w-fit flex justify-between items-center gap-2">
 
-            <img src="assets/sun.png" alt="Theme" class="h-8" data-theme>
+            <img src="assets/sun.png" alt="Theme" class="h-8 cursor-pointer" data-theme>
 
             <!--G-Translate-->
             <div class="gtranslate_wrapper space-x-1"></div>
@@ -29,7 +29,7 @@
     <main class="w-full space-y-4 absolute top-24">
 
         <!--Title-->
-        <section class="w-fit mx-auto">
+        <section class="w-fit mx-auto dark:text-white">
 
             <h1 class="text-lg md:text-2xl font-semibold">Game List</h1>
 
@@ -58,16 +58,19 @@
     </main>
 
     <!--Footer-->
-    <footer class="w-full h-12 bg-white flex justify-center items-center">
+    <footer class="w-full h-12 bg-white flex justify-center items-center dark:bg-stone-600">
 
         <p class="text-lg text-gray-
-        700"><a href="https://www.linkedin.com/in/matheus-pombeiro/" target="_blank" rel="noopener noreferrer" class="font-medium hover:underline">Matheus Pombeiro</a> | 2023 &copy;</p>
+        700 dark:text-white"><a href="https://www.linkedin.com/in/matheus-pombeiro/" target="_blank" rel="noopener noreferrer" class="font-medium hover:underline">Matheus Pombeiro</a> | 2023 &copy;</p>
 
     </footer>
 
     <!--G-Translate scripts-->
     <script>window.gtranslateSettings = {"default_language":"en","languages":["en","pt"],"wrapper_selector":".gtranslate_wrapper","alt_flags":{"en":"usa","pt":"brazil"}}</script>
     <script src="https://cdn.gtranslate.net/widgets/latest/flags.js" defer></script>
+
+    <!--Main script-->
+    <script type="module" src="scripts/main.js"></script>
     
 </body>
 </html>
