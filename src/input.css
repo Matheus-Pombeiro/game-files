@@ -8,4 +8,16 @@
         @apply w-11/12 md:w-3/6 xl:w-2/6 mx-auto p-5 bg-stone-500 rounded-md drop-shadow-lg;
     }
 
+    .output {
+        @apply px-3 py-2 bg-stone-300 rounded flex justify-between items-center;
+    }
+
+    .output-p {
+        @apply overflow-auto touch-pan-x;
+    }
+
+    .delete-btn {
+        @apply ml-2 px-1.5 bg-red-500 text-white font-medium rounded-sm cursor-pointer;
+    }
+
 }
