@@ -1,7 +1,7 @@
 # game-files
  An online Game List
 
- Hey, there! This is the Game Files, a webpage where you can save your favorite games in a list. The project is all developed using Front-end technologies, as HTML, Tailwind CSS and JavaScript. The Figma was used to design the page.
+ Hey, there! This is the Game Files, a webpage where you can save your favorite games in a list. The project was all developed using Front-end technologies, as HTML, Tailwind CSS and JavaScript. The Figma was used to design the page.
 
  This is an authorial project made by its author. You can see the use of the techs mentioned previously next.
 
@@ -44,6 +44,6 @@
  <hr>
 
  Author's name: Matheus V. G. Pombeiro<br>
- Date of the conclusion (mm-dd-yyyy): <br>
+ Conclusion date of this project (mm-dd-yyyy): <br>
  Author's education at the moment of this post: Degree in Accounting Sciences and Software Engineering student<br>
  Author's LinkedIn profile: <a href="https://www.linkedin.com/in/matheus-pombeiro/" target="_blank" rel="noopener noreferrer">Matheus Pombeiro</a>
