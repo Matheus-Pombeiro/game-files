@@ -4,8 +4,16 @@
 
 @layer components {
 
+    .h1 {
+        @apply text-lg md:text-2xl font-semibold;
+    }
+
     .main-section {
         @apply w-11/12 md:w-3/6 xl:w-2/6 mx-auto p-5 bg-stone-500 rounded-md drop-shadow-lg;
+    }
+
+    .btn {
+        @apply px-3 py-2 bg-stone-700 text-white font-medium rounded outline-none hover:bg-stone-800 active:bg-stone-600;
     }
 
     .output {
