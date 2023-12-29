@@ -36,7 +36,6 @@
     <li>Modal</li>
     <li>Theme switching</li>
     <li>Save and delete elements in the list with localStorage</li>
-    <li>Drag and drop</li>
  </ul>
 
  You can access this project webpage clicking <a href="https://matheus-pombeiro.github.io/game-files/src/index.html" target="_blank" rel="noopener noreferrer">here</a>.
