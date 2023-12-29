@@ -35,7 +35,7 @@
     <li>Business programming logic</li>
     <li>Modal</li>
     <li>Theme switching</li>
-    <li>Save and delete elements in the list with localStorage</li>
+    <li>Save and delete elements from the list with localStorage</li>
  </ul>
 
  You can access this project webpage clicking <a href="https://matheus-pombeiro.github.io/game-files/src/index.html" target="_blank" rel="noopener noreferrer">here</a>.
@@ -43,6 +43,6 @@
  <hr>
 
  Author's name: Matheus V. G. Pombeiro<br>
- Conclusion date of this project (mm-dd-yyyy): <br>
+ Conclusion date of this project (mm-dd-yyyy): 12/29/2023<br>
  Author's education at the moment of this post: Degree in Accounting Sciences and Software Engineering student<br>
  Author's LinkedIn profile: <a href="https://www.linkedin.com/in/matheus-pombeiro/" target="_blank" rel="noopener noreferrer">Matheus Pombeiro</a>
